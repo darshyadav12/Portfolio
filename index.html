@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <!-- <li><a href="#about">About Me</a></li> -->
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#projects">Project</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+<section class="hero" id="home">
+  <div class="hero-content">
+    <h1 class="hero-heading">
+      Hi, I'm <span class="accent">Darsh Yadav</span>
+    </h1>
+
+    <h2 class="hero-typing">
+      I am a <span class="typed-words"></span>
+    </h2>
+
+     <div class="hero-buttons">
+      <a href="#projects" class="btn hero-btn">View Projects</a>
+      <a href="#contact" class="btn-outline hero-btn">Contact Me</a>
+    </div>
+
+    <div class="hero-icons">
+      <img src="Images/html2.png" alt="">
+      <img src="Images/AI.png" alt="">
+      <img src="Images/cube.png" alt="">
+      <img src="Images/music.png"">
+    </div>
+  </div>
+   </section>
+
+</section>
+
+
+    <section id="skills">
+        <h1 class="headings">SKILLS</h1>
+        <div class="row">
+            <div class="box">
+                <img src="Images/html2.png" alt="">
+                <h1 class="headings">Programming & Web</h1>
+                <ul class="box_list">
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+            <div class="box">
+                <img src="Images/database.png" alt="">
+                <h1 class="headings">Databases</h1>
+                <ul class="box_list">
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                </ul>
+            </div>
+            <div class="box">
+                <img src="Images/AI.png" alt="">
+                <h1 class="headings">AI & ML</h1>
+                <ul class="box_list">
+                    <li>Prompt Engineering</li>
+                    <li>Generative AI</li>
+                    <li>Vector Search</li>
+                    <li>Data Science (Foundational)</li>
+                </ul>
+            </div>
+            <div class="box">
+                <img src="Images/language.png" alt="">
+                <h1 class="headings">Languages</h1>
+                <ul class="box_list">
+                    <li>English</li>
+                    <li>Hindi</li>
+                    <li>French</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- certificates -->
+<section id="certificates">
+  <h1 class="headings">Certificates</h1>
+
+  <div class="certificate-wrapper">
+    <button class="cert-btn left" id="prev">&#10094;</button>
+
+    <div class="certificate-viewport">
+      <div class="certificate-track">
+        <div class="certificate-card">
+          <img src="Certificates/Certificate1.jpeg" alt="">
+          <p>Data Science</p>
+        </div>
+
+        <div class="certificate-card">
+          <img src="Certificates/Certificate4.jpeg" alt="">
+          <p>Ai Foundation</p>
+        </div>
+        
+        <div class="certificate-card">
+          <img src="Certificates/Certificate2.jpeg" alt="">
+          <p>Generative Ai Professional</p>
+        </div>
+
+        <div class="certificate-card">
+          <img src="Certificates/Certificate3.jpeg" alt="">
+          <p>Vector Ai Search</p>
+        </div>
+      </div>
+    </div>
+
+    <button class="cert-btn right" id="next">&#10095;</button>
+  </div>
+</section>
+
+</section>
+<!-- hobbies -->
+<section id="hobbies">
+    <h1 class="headings">Hobbies</h1>
+    <div class="row hobbies-row">
+        <a href="cubing.html" class="hobby-card">
+            <img src="Images/cube.png" alt="Cubing">
+            <h2>Cubing</h2>
+            <p>Speedcubing, pattern solves, and creative cube designs.</p>
+            <span class="explore">Explore →</span>
+        </a>
+
+        <a href="music.html" class="hobby-card">
+            <img src="Images/music.png" alt="Music">
+            <h2>Music</h2>
+            <p>Flute, piano, guitar & multi-instrument exploration.</p>
+            <span class="explore">Explore →</span>
+        </a>
+
+        <a href="art.html" class="hobby-card">
+            <img src="Images/art.png" alt="Art & Origami">
+            <h2>Art & Origami</h2>
+            <p>Paper art, origami models, and creative crafts.</p>
+            <span class="explore">Explore →</span>
+        </a>
+
+    </div>
+</section>
+<section id="projects">
+    <h1 class="headings">Projects</h1>
+    <div class="row">
+        <a href="https://github.com/darshyadav12/Jarvis" 
+   class="project-card" 
+   target="_blank">
+    <img src="Images/Jarvis.png" alt="Jarvis Logo">
+    <h2>Jarvis Voice Assistant</h2>
+    <hr>
+    <p>
+        Modular Python-based desktop voice assistant with automation, translation, news reading and smart control.
+    </p>
+    <span class="tech">
+        Python • Speech Recognition • Automation
+    </span>
+    <span class="cta">View on GitHub →</span>
+</a>
+        <a href="https://github.com/darshyadav12/Flappy-Bird---Full-PyGame-Clone" 
+   class="project-card" 
+   target="_blank">
+    <img src="Images/Flappy_Bird.png" alt="Flappy Bird Logo">
+    <h2>Flappy Bird Game</h2>
+    <hr>
+    <p>
+        Complete Flappy Bird game with smooth animations, a welcome screen, 
+        moving pipes, sound effects, score counting and collision detection.
+    </p>
+    <span class="tech">
+        PyGame • Sprite rendering • Basic 2D animation
+    </span>
+    <span class="cta">View on GitHub →</span>
+</a>
+        <a href="https://github.com/darshyadav12/PolicyRecommendationAI" 
+   class="project-card" 
+   target="_blank">
+    <img src="Images/Policy.png" alt="Policy Logo">
+    <h2>Policy Recommendation AI</h2>
+    <hr>
+    <p>
+        An AI tool that reads real-world issues from a survey (stored in an Excel sheet)
+        and recommends suitable policy actions.
+    </p>
+    <span class="tech">
+        Python • Pandas • Scikit-Learn
+    </span>
+    <span class="cta">View on GitHub →</span>
+</a>
+<!-- GitHub CTA -->
+   <a href="https://github.com/darshyadav12"
+   class="project-card github-card"
+   target="_blank">
+   <div class="github-img">
+    <img class="image-default" src="Images/github_black.png" alt="image-default">
+    <img class="image-hover" src="Images/github_white.png" alt="image-hover">
+ </div>
+
+    <h2>More Projects</h2>
+    <hr>
+    <p>
+        Explore all my projects, experiments, and learning
+        journey on GitHub.
+    </p>
+
+    <span class="cta">View on GitHub</span>
+</a>
+    </div>
+</section>
+<!-- Contact me -->
+    <section id="contact">
+  <h1 class="headings">CONTACT ME</h1>
+
+  <form
+    class="form"
+    action="https://formspree.io/f/xvzgvdzl"
+    method="POST"
+  >
+    <input
+      type="text"
+      name="name"
+      class="input"
+      placeholder="Your Name"
+      required
+    >
+
+    <input
+      type="email"
+      name="email"
+      class="input"
+      placeholder="Your Email"
+      required
+    >
+
+    <textarea
+      name="message"
+      id="msg"
+      rows="6"
+      placeholder="Your Message"
+      required
+    ></textarea>
+
+    <button type="submit" id="send">SEND</button>
+    <p id="form-status"></p>
+  </form>
+</section>
+
+  <!-- JS File -->
+  <script>
+  // Typing Part
+  const words = [
+  "Coder",
+  "Cuber",
+  "Artist",
+  "Multi-Instrumentalist",
+  "Tech Enthusiast",
+  "Problem Solver",
+  "Multidisciplinary"
+];
+  let i = 0;
+  const el = document.querySelector(".typed-words");
+
+  function typing() {
+    let word = words[i].split("");
+    let loopTyping = function() {
+      if(word.length > 0){
+        el.innerHTML += word.shift();
+        setTimeout(loopTyping, 90);
+      } else {
+        setTimeout(deleting, 1300);
+      }
+    };
+    loopTyping();
+  }
+
+  function deleting() {
+    let word = words[i].split("");
+    let loopDeleting = function() {
+      if(word.length > 0){
+        word.pop();
+        el.innerHTML = word.join("");
+        setTimeout(loopDeleting, 70);
+      } else {
+        i = (i + 1) % words.length;
+        typing();
+      }
+    };
+    loopDeleting();
+  }
+
+  typing();
+  // Certificate Scroll
+  const track = document.querySelector(".certificate-track");
+  const cards = document.querySelectorAll(".certificate-card");
+  const nextBtn = document.getElementById("next");
+  const prevBtn = document.getElementById("prev");
+
+  let index = 0;
+
+  function updateSlider() {
+    track.style.transform = `translateX(-${index * 100}%)`;
+  }
+
+  nextBtn.addEventListener("click", () => {
+    index = (index + 1) % cards.length;
+    updateSlider();
+  });
+
+  prevBtn.addEventListener("click", () => {
+    index = (index - 1 + cards.length) % cards.length;
+    updateSlider();
+  });
+
+  // Form Send Message
+  const form = document.querySelector(".form");
+  const status = document.getElementById("form-status");
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const data = new FormData(form);
+    const res = await fetch(form.action, {
+      method: form.method,
+      body: data,
+      headers: { 'Accept': 'application/json' }
+    });
+
+    if (res.ok) {
+      status.textContent = "Thanks! I'll get back to you soon 🙂";
+      form.reset();
+    } else {
+      status.textContent = "Oops! Something went wrong.";
+    }
+  });
+
+</script>
+ 
+</body>
+</html> 
