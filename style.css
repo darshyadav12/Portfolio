@@ -144,7 +144,7 @@ a{
     background-color: rgba(0, 0, 0, 0.9);
     color: white;
     align-items: center;
-    padding: 60px 20px 120px; /* extra bottom space */
+    padding: 60px 20px 120px; 
     height: 100vh;
     width: 100%;
     overflow: hidden;
@@ -171,7 +171,7 @@ a{
 /* CARD (ONE FULL VIEW) */
 .certificate-card {
   flex: 0 0 100%;
-  padding: 25px; /* more breathing room */
+  padding: 25px;
   background: #111;
   border-radius: 18px;
 }
@@ -179,7 +179,7 @@ a{
 /* IMAGE */
 .certificate-card img {
   width: 100%;
-  height: 55vh; /* scales with section */
+  height: 55vh; 
   max-height: 520px;
   object-fit: contain;
   background: white;
@@ -347,7 +347,7 @@ a{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 30px;
-  justify-content: center;   /* centers the grid as a whole */
+  justify-content: center;
   justify-items: center; 
 }
 .section-title{
@@ -436,7 +436,7 @@ a{
 }
 .pattern-img {
   width: 100%;
-  aspect-ratio: 1 / 1;   /* forces square cards */
+  aspect-ratio: 1 / 1;   
   overflow: hidden;
   border-radius: 12px;
   background: #f3f3f3;
@@ -445,7 +445,7 @@ a{
 .pattern-img img {
   width: 100%;
   height: 100%;
-  object-fit: contain;  /* keeps full pattern visible */
+  object-fit: contain;  
 }
 
 .pattern-card p{
@@ -513,7 +513,7 @@ a{
 }
 
 .sample-card{
-    flex: 0 0 82%;   /* instead of fixed 460px */
+    flex: 0 0 82%;   
     max-width: 460px;
     background: white;
     border-radius: 15px;
@@ -624,7 +624,7 @@ a{
 }
 
 .origami-images img {
-  height: 80px;   /* was too small before */
+  height: 80px;   
   object-fit: contain;
   background: white;
   border-radius: 12px;
