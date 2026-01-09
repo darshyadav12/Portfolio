@@ -344,11 +344,13 @@ a{
     text-align: center;
 }
 .solve-slider {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 30px;
-  justify-content: center;
-  justify-items: center; 
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 20px 16px;
+    scroll-snap-type: x mandatory;
+    justify-content: flex-start;
+    -webkit-overflow-scrolling: touch;
 }
 .section-title{
     font-family: century;
